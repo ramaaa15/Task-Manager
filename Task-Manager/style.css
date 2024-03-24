@@ -1,0 +1,98 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, black , darkblue);
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+
+.task-manager {
+    background-color: rgba(25, 158, 202, 0.201);
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    outline-style: solid;
+    padding-left: 10px;
+    color: white;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.588);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: wheat;
+    
+}
+
+li {
+    margin: 10px;
+    padding: 5px ;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    list-style-type: circle;
+    
+}
+
+.remove-button{
+
+    padding: 5px 10px;
+        background-color: rgba(228, 52, 52, 0.759);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 5px;
+}
+.complete-button {
+    padding: 5px 10px;
+    background-color: rgba(4, 152, 4, 0.749);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.remove-button:hover{
+    background-color: #a00b0b;
+}
+.complete-button:hover {
+    background-color: rgb(1, 62, 1);
+}
+
+.completed {
+    text-decoration: line-through;
+}
